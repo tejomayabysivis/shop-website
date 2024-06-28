@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment - Tejomaya By Sivi's</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/150" alt="Tejomaya By Sivi's Logo" class="logo">
+        <h1>Book an Appointment</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="booking">
+        <div class="form-container">
+            <form id="bookingForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="service">Service:</label>
+                <select id="service" name="service" required>
+                    <option value="haircuts">Haircuts</option>
+                    <option value="facials">Facials</option>
+                    <option value="manicure-pedicure">Manicure and Pedicure</option>
+                    <option value="massages">Massages</option>
+                    <option value="makeup">Makeup</option>
+                    <option value="waxing">Waxing</option>
+                    <option value="bridal-makeup">Bridal Makeup</option>
+                    <option value="party-makeup">Party Makeup</option>
+                    <option value="photoshoot">Photoshoot</option>
+                    <option value="fashion-makeup">Fashion Makeup</option>
+                </select>
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tejomaya By Sivi's. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
